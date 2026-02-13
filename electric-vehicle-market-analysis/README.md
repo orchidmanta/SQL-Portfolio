@@ -1,11 +1,11 @@
 ## Question 1
 ### What are the most popular EV brands?
 
-\n SELECT make, COUNT(*) AS vehicle_count 
+\nSELECT make, COUNT(*) AS vehicle_count 
 FROM ev_clean
 GROUP BY make
 ORDER BY vehicle_count DESC
-LIMIT 10; \n
+LIMIT 10;\n
 
 
 ## Answer 1
